@@ -14,6 +14,21 @@ function divide(a, b) {
     return a / b;
 }
 
+function operate(firstNum, secondNum, operator) {
+    if (operator === "+") {
+        alert(add(firstNum, secondNum));
+    }
+    if (operator === "-") {
+        alert(subtract(firstNum, secondNum));
+    }
+    if (operator === "*") {
+        alert(multiply(firstNum, secondNum));
+    }
+    if (operator === "/") {
+        alert(divide(firstNum, secondNum));
+    }
+}
+
 let firstNum = parseInt(prompt('Type a number'));
 let operator = prompt('Choose an operator');
 let secondNum = parseInt(prompt('Type a number'));
