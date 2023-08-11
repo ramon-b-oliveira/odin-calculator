@@ -1,0 +1,26 @@
+.calculator {
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    background-color: #8f8f8f;
+}
+
+.display {
+    font-size: 45px;
+    text-align: right;
+    padding: 20px;
+    height: 100px;
+    width: 360px;
+    background-color: #242424;
+    color: #cfcfcf;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap
+}
+.btn {
+    width: 100px;
+    height: 65px;
+}

@@ -29,6 +29,6 @@ function operate(firstNum, secondNum, operator) {
     }
 }
 
-let firstNum = parseInt(prompt('Type a number'));
-let operator = prompt('Choose an operator');
-let secondNum = parseInt(prompt('Type a number'));
+let firstNum = ""
+let operator = ""
+let secondNum = ""
